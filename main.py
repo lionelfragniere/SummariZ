@@ -2,7 +2,7 @@ from fastapi import FastAPI, File, UploadFile
 import google.generativeai as genai
 
 # Configure Gemini client
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="API_KEY")
 
 app = FastAPI()
 
